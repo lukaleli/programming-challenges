@@ -13,7 +13,6 @@ and kill it, and that you have enough RAM to run it).
 const assert = require('assert');
 
 function chop(target, source) {
-    console.log('chop(' + target + ', ' + source + ')');
     if (!source || source.length === 0) {
         return -1;
     }
