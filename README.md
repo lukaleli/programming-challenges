@@ -1,6 +1,6 @@
 # Programming challenges
 
-1. tv-time
+## [tv-time](https://github.com/lukaleli/programming-challenges/blob/master/tv-time.js)
 
 There's a room with a TV and people are coming in and out to watch it. The TV is on only when there's at least a person in the room. 
 For each person that comes in, we record the start and end time. We want to know for how long the TV has been on. In other words: 
