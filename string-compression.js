@@ -2,10 +2,10 @@ const assert = require('assert');
 
 function compress(str) {
     let compressed = '';
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0, l = str.length; i < l; i++) {
         let prevChar = str.charAt(i);
         let charCount = 1;
-        for (let j = i + 1; j < str.length; j++) {
+        for (let j = i + 1; j < l; j++) {
             if (str.charAt(j) === prevChar) {
                 charCount++;
             } else {
